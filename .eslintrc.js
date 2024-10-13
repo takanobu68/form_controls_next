@@ -1,20 +1,21 @@
 module.exports = {
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "next/core-web-vitals",
-    "next/typescript",
-    "prettier",
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'next/core-web-vitals',
+    'next/typescript',
+    'plugin:tailwindcss/recommended',
+    'prettier',
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: "./tsconfig.json",
+    project: './tsconfig.json',
   },
   rules: {
-    "no-const-assign": "error",
-    "@typescript-eslint/explicit-function-return-type": "error",
+    'no-const-assign': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'error',
   },
-  plugins: ["@typescript-eslint"],
+  plugins: ['@typescript-eslint'],
   root: true,
-};
+}

@@ -1,4 +1,3 @@
-// Prettierの設定ファイル
 module.exports = {
   // コードの末尾にセミコロンを追加しない（JavaScriptではオプションだが、多くのスタイルではセミコロンが推奨される。ここではセミコロンを省略）
   semi: false,
